@@ -101,17 +101,9 @@ header {
     box-shadow: none; /* Eliminamos la sombra */
 }
 
-.cualidad .icono img {
-    max-width: 100%; /* La imagen no excederá el ancho del contenedor */
-    max-height: 100%; /* La imagen no excederá la altura del contenedor */
-    width: auto;    /* Mantiene la proporción de la imagen */
-    height: auto;   /* Mantiene la proporción de la imagen */
-    display: block; /* Evita espaciados extra alrededor de la imagen */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-}
 
 .cualidad h3 {
-    color: #5bc0de;
+    color: #0056b3;
     margin-bottom: 0.5em;
 }
 
@@ -167,7 +159,7 @@ footer {
 }
 
 footer h3 {
-    color: #5bc0de; /* Azul más oscuro para los títulos del footer */
+    color: white; /* Azul más oscuro para los títulos del footer */
     margin-bottom: 0.6em;
 }
 
