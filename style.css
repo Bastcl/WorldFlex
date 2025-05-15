@@ -1,0 +1,242 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f3f5; /* Un gris claro como fondo principal */
+    color: #212529; /* Texto en un tono oscuro para contraste */
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #346589; /* Azul más oscuro para los títulos */
+    margin-bottom: 0.75em;
+}
+
+#formulario-contacto button[type="submit"] {
+    background-color: #346589; /* Azul más oscuro */
+    color: white;
+    padding: 1.2em 2.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+#formulario-contacto button[type="submit"]:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+}
+
+footer h3 {
+    color: #346589; /* Azul más oscuro para los títulos del footer */
+}
+
+.desarrollador a {
+    color: #346589; /* Azul más oscuro para los enlaces */
+}
+
+header a.cta-principal {
+    display: inline-block;
+    background-color: #346589; /* Azul más oscuro principal */
+    color: white;
+    padding: 0.8em 1.5em; /* Reducimos el padding para hacerlo más compacto */
+    border: none; /* Eliminamos el borde */
+    border-radius: 10px; /* Eliminamos el borde redondeado */
+    cursor: pointer;
+    font-size: 1em; /* Ajustamos el tamaño de la fuente */
+    text-decoration: none; /* Para quitar el subrayado del enlace */
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    margin-top: 1em; /* Espacio desde el slogan */
+}
+
+header a.cta-principal:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+    transform: scale(1.02); /* Ligero efecto de escala */
+}
+
+.slogan {
+    color: #6c757d; /* Un gris medio para el slogan */
+    margin-top: 0.5em;
+    font-size: 1.1em;
+}
+
+header {
+    background-color: #e9ecef; /* Un gris muy claro para el header */
+    padding: 3em 2em;
+    text-align: center;
+}
+
+.destacados {
+    padding: 4em 2em;
+    background-color: #346589; /* Otro tono claro para los destacados */
+    text-align: center;
+}
+
+.cualidades {
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    margin-top: 2.5em;
+    flex-wrap: wrap;
+}
+
+.cualidad {
+    background-color: #e9ecef; /* Fondo claro para las cualidades */
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    max-width: 320px;
+    text-align: center; /* Centramos el contenido dentro de la cualidad */
+}
+
+.cualidad .icono {
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 0 auto; /* Centra el contenedor del icono */
+    width: auto; /* Eliminamos el tamaño fijo */
+    height: auto; /* Eliminamos el tamaño fijo */
+    background-color: none; /* Eliminamos el fondo */
+    border-radius: 0; /* Eliminamos el borde redondeado */
+    box-shadow: none; /* Eliminamos la sombra */
+}
+
+.cualidad .icono img {
+    max-width: 100%; /* La imagen no excederá el ancho del contenedor */
+    max-height: 100%; /* La imagen no excederá la altura del contenedor */
+    width: auto;    /* Mantiene la proporción de la imagen */
+    height: auto;   /* Mantiene la proporción de la imagen */
+    display: block; /* Evita espaciados extra alrededor de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.cualidad h3 {
+    color: #5bc0de;
+    margin-bottom: 0.5em;
+}
+
+.info-empresa {
+    padding: 4em 2em;
+    text-align: center;
+    background-color: #dee2e6; /* Fondo claro para la info de la empresa */
+}
+
+.formulario-cotizacion {
+    padding: 4em 2em;
+    background-color: #e9ecef; /* Fondo claro para el formulario */
+    text-align: center;
+}
+
+#formulario-contacto {
+    max-width: 550px;
+    margin: 2.5em auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    padding: 2em;
+    background-color: #dee2e6; /* Fondo claro para el contenedor del formulario */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+}
+
+.campo label {
+    color: #000000;
+    margin-bottom: 0.6em;
+}
+
+.campo input[type="text"],
+.campo input[type="number"],
+.campo select {
+    width: calc(100% - 12px);
+    padding: 0.6em;
+    border: 1px solid #7e848b; /* Borde más oscuro para los inputs */
+    border-radius: 4px;
+    background-color: #ffffff; /* Fondo oscuro para los inputs */
+    color: #000000;
+}
+
+footer {
+    background-color: #0c446c; /* Fondo oscuro para el footer */
+    color: #f8f9fa; /* Texto claro para contraste */
+    padding: 2.5em 2em;
+    display: flex; /* Para alinear Contacto y Redes Sociales en la misma fila */
+    justify-content: space-around; /* Espacio entre Contacto y Redes Sociales */
+    flex-wrap: wrap; /* Para que se apilen en pantallas pequeñas */
+    gap: 1.5em;
+    text-align: center;
+}
+
+footer h3 {
+    color: #5bc0de; /* Azul más oscuro para los títulos del footer */
+    margin-bottom: 0.6em;
+}
+
+.redes-sociales .iconos {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales .iconos a {
+    margin: 0 0.75em;
+}
+
+.redes-sociales .iconos img {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.desarrollador {
+    width: 100%; /* Ocupa todo el ancho para estar abajo */
+    text-align: center;
+    margin-top: 2em; /* Espacio desde la fila superior */
+    font-size: 0.9em;
+}
+
+.desarrollador a {
+    color: #5bc0de; /* Azul más oscuro para los enlaces */
+    text-decoration: none;
+}
+
+/* Estilos Responsivos (Media Queries) */
+@media (max-width: 768px) {
+    header {
+        padding: 2em 1em;
+    }
+
+    .destacados {
+        padding: 3em 1em;
+    }
+
+    .cualidades {
+        gap: 1.5em;
+        margin-top: 2em;
+    }
+
+    .cualidad {
+        padding: 1.5em;
+    }
+
+    .info-empresa {
+        padding: 3em 1em;
+    }
+
+    .formulario-cotizacion {
+        padding: 3em 1em;
+    }
+
+    #formulario-contacto {
+        padding: 1.5em;
+        margin: 2em auto;
+    }
+
+    footer {
+        padding: 2em 1em;
+        flex-direction: column; /* Apilamos en pantallas pequeñas */
+        align-items: center;
+    }
+
+    .redes-sociales .iconos a {
+        margin: 0 0.5em;
+    }
+}

@@ -1,1 +1,107 @@
-<h1>Hola</h1>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldFlex - Conectamos lugares y personas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/img/logo.svg" alt="Logo de WorldFlex"
+                style="max-width: 600px; height: auto; margin: 0 auto;">
+        </div>
+        <a href="#cotizacion" class="cta-principal">Obtén tu Cotización Ahora</a>
+    </header>
+
+    <section id="por-que-worldflex" class="destacados">
+        <h2>¿Por qué elegir WorldFlex?</h2>
+        <div class="cualidades">
+            <div class="cualidad">
+                <div class="icono"><img src="https://img.icons8.com/?size=100&id=P47sI6mD2K1t&format=png&color=000000"
+                        alt=""></div>
+                <h3>Rapidez</h3>
+                <p>Entregas eficientes para que tus envíos lleguen a tiempo.</p>
+            </div>
+            <div class="cualidad">
+                <div class="icono"> <img src="https://img.icons8.com/?size=100&id=ntbOqE0dGZYl&format=png&color=000000"
+                        alt=""></div>
+                <h3>Profesionalismo</h3>
+                <p>Equipo experto y dedicado al cuidado de tus paquetes.</p>
+            </div>
+            <div class="cualidad">
+                <div class="icono"> <img src="https://img.icons8.com/?size=100&id=114199&format=png&color=000000"
+                        alt=""></div>
+                <h3>Precios Competitivos</h3>
+                <p>Tarifas justas que se adaptan a tus necesidades de envío.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="conoce-worldflex" class="info-empresa">
+        <h2>Conoce WorldFlex</h2>
+        <p>En WorldFlex, nuestra misión es conectar negocios y personas a través de un servicio de envío de paquetería
+            confiable y eficiente. [Aquí puedes agregar más sobre la historia o valores de tu empresa].</p>
+        <img src="[Ruta de tu imagen]" alt="Imagen representativa de WorldFlex"
+            style="max-width: 100%; height: auto; margin-top: 1em;">
+    </section>
+
+    <section id="cotizacion" class="formulario-cotizacion">
+        <h2>Solicita tu Cotización</h2>
+        <form id="formulario-contacto">
+            <div class="campo">
+                <label for="origen">Ciudad de Origen:</label>
+                <input type="text" id="origen" name="origen" required placeholder="Santiago">
+            </div>
+            <div class="campo">
+                <label for="destino">Ciudad de Destino:</label>
+                <input type="text" id="destino" name="destino" required placeholder="Temuco">
+            </div>
+            <div class="campo">
+                <label for="peso">Peso Aproximado(kg):</label>
+                <input type="number" id="peso" name="peso" min="0.1" step="0.1" required placeholder="3.5">
+            </div>
+            <div class="campo">
+                <label for="dimensiones">Dimensiones Aproximadas (cm):</label>
+                <input type="text" id="dimensiones" name="dimensiones" placeholder="10x15x20">
+            </div>
+            <div class="campo">
+                <label for="servicio">Tipo de Servicio:</label>
+                <select id="servicio" name="servicio">
+                    <option value="estandar">Estándar</option>
+                    <option value="urgente">Urgente</option>
+                </select>
+            </div>
+            <button type="submit">Obtener Cotización</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p>¡Estamos aquí para ayudarte!</p>
+            <p>Teléfono: [Tu número de teléfono]</p>
+            <p>Email: [Tu correo electrónico]</p>
+        </div>
+        <div class="redes-sociales">
+            <h3>Síguenos en:</h3>
+            <div class="iconos">
+                <a href="[Enlace a Instagram]" target="_blank"><img src="[Ruta al icono de Instagram]"
+                        alt="Instagram"></a>
+                <a href="[Enlace a TikTok]" target="_blank"><img src="[Ruta al icono de TikTok]" alt="TikTok"></a>
+                <a href="[Enlace a WhatsApp]" target="_blank"><img src="[Ruta al icono de WhatsApp]" alt="WhatsApp"></a>
+            </div>
+        </div>
+        <div class="desarrollador">
+            <p>All rights reserved by <a href="https://www.instagram.com/bastdiseno.cl/" target="_blank"
+                    style="color: #5bc0de; font-weight: bold;">Bast™</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
