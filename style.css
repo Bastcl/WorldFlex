@@ -7,11 +7,16 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3 {
-    color: #346589; /* Azul más oscuro para los títulos */
+h1, h2 , h3 {
+    color: #0056b3; /* Azul más oscuro para los títulos */
     margin-bottom: 0.75em;
+    text-transform: uppercase;
 }
-
+#por-que-worldflex h2 {
+    color: white; /* Azul más oscuro para los títulos */
+    margin-bottom: 0.75em;
+    text-transform: uppercase;
+}
 #formulario-contacto button[type="submit"] {
     background-color: #346589; /* Azul más oscuro */
     color: white;
